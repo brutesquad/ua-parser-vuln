@@ -10,16 +10,17 @@ CISA Announcement: https://us-cert.cisa.gov/ncas/current-activity/2021/10/22/mal
 
 Therecord: https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/
 
+**Brief overview**
+Package.json file has the line:
+ ""preinstall": "start /B node preinstall.js & node preinstall.js"," added,  calls the new attack scripts.
 
-Package.json has the line:
- ""preinstall": "start /B node preinstall.js & node preinstall.js"," added, to call the new attack scripts.
-preinstall.js looks to see Windows, mac, linux, and call the correct file
+File preinstall.js looks to determine Windows, mac, linux, and call the correct next file
 
-On the linux side: It checks the server IP, if in the RU/UA/BY/KZ geo, does nothing.
-
+**Linux**
+On the linux side: It checks the server IP, if in the RU/UA/BY/KZ geo, does nothing. 
 Else, it pulls down  jsextention from a remote IP in the Latvia GEO
 
-**If Windows:**
+**Windows:**
 1. Pulls down jsextension.exe  (Server serving is not responding)
 2. Tries to curl it down
 3. If that doesn work, tries wget
