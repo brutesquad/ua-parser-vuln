@@ -2,15 +2,11 @@
 
 ## Data Sources:
 
-Read the diff here: https://my.diffend.io/npm/ua-parser-js/0.7.28/0.7.29#d2h-701945
-
-Virustotal: https://www.virustotal.com/gui/file/2a3acdcd76575762b18c18c644a745125f55ce121f742d2aad962521bc7f25fd/behavior/C2AE
-
-CISA Announcement: https://us-cert.cisa.gov/ncas/current-activity/2021/10/22/malware-discovered-popular-npm-package-ua-parser-js
-
-Advisory: https://github.com/advisories/GHSA-pjwm-rvh2-c87w
-
-Therecord: https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/
+- Read the diff here: https://my.diffend.io/npm/ua-parser-js/0.7.28/0.7.29#d2h-701945
+- Virustotal: https://www.virustotal.com/gui/file/2a3acdcd76575762b18c18c644a745125f55ce121f742d2aad962521bc7f25fd/behavior/C2AE
+- CISA Announcement: https://us-cert.cisa.gov/ncas/current-activity/2021/10/22/malware-discovered-popular-npm-package-ua-parser-js
+- Advisory: https://github.com/advisories/GHSA-pjwm-rvh2-c87w
+- Therecord: https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/
 
 ## Brief overview
 Package.json file has the line:
