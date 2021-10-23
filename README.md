@@ -1,4 +1,4 @@
-# H1 ua-parser-vuln
+# ua-parser-vuln
 
 ## Data Sources:
 
