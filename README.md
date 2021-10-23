@@ -8,6 +8,8 @@ Virustotal: https://www.virustotal.com/gui/file/2a3acdcd76575762b18c18c644a74512
 
 CISA Announcement: https://us-cert.cisa.gov/ncas/current-activity/2021/10/22/malware-discovered-popular-npm-package-ua-parser-js
 
+Advisory: https://github.com/advisories/GHSA-pjwm-rvh2-c87w
+
 Therecord: https://therecord.media/malware-found-in-npm-package-with-millions-of-weekly-downloads/
 
 ## Brief overview
